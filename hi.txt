@@ -1,1 +1,34 @@
+
+UseR@DESKTOP-UG85I2P MINGW64 ~/Desktop/java (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/UseR/Desktop/java/.git/
+
+UseR@DESKTOP-UG85I2P MINGW64 ~/Desktop/java (main)
+$ git add .
+
+UseR@DESKTOP-UG85I2P MINGW64 ~/Desktop/java (main)
+$ git commit -m "message"
+[main (root-commit) e009f33] message
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hi.txt
+
+UseR@DESKTOP-UG85I2P MINGW64 ~/Desktop/java (main)
+$ git branch -M main
+
+UseR@DESKTOP-UG85I2P MINGW64 ~/Desktop/java (main)
+$ git remote add origin https://github.com/Umesh657/Firest-project.git
+error: remote origin already exists.
+
+UseR@DESKTOP-UG85I2P MINGW64 ~/Desktop/java (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 215 bytes | 215.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Umesh657/Firest-project.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+UseR@DESKTOP-UG85I2P MINGW64 ~/Desktop/java (main)
+$
  message 
